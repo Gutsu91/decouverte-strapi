@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_blocs_sections",
+  "info": {
+    "displayName": "section",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "section_content": {
+      "type": "richtext"
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "header",
+        "main",
+        "section",
+        "aside",
+        "article",
+        "div",
+        "span",
+        "footer"
+      ],
+      "default": "section"
+    }
+  }
+}
